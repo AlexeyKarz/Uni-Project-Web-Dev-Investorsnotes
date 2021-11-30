@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контактная информация</title>
+    <link rel="shortcut icon" type="image/ico" href="../images/icon.ico">
+    <link rel='stylesheet' type='text/css' href='../Main.css'>
+    <link rel='stylesheet' type='text/css' href='./contacts.css'>
+</head>
+
+<body background="../images/mainbg.jpg">
+    <form action="http://g06u33.nn2000.info/cgi-bin/form_action.py" method='get' target='_self'>
+        <hr color="000066" width="100%" size="20px">
+        <div id="capt">
+            <h1 align="center">Справочник инвестора</h1>
+            <h2 align="center">Пожалуйста, заполните информацию в таблице ниже для внесения вас в базу данных</h2>
+        </div>
+        <hr align="center" color="000066" width="100%" size="10px">
+        <ul class="menu">
+            <li><a class="mainpageref" href="../MainPage/MainPage.html"> <img height="60px" src="../images/mpref.jpg">
+                </a> </li>
+            <li><a class="page" href="../MainPage/MainPage.html">Главная</a></li>
+            <li><a class="page" href="../Indexesandfunds/Indexesandfunds.html">Фонды и индексы</a></li>
+            <li><a class="page" href="../Shares/Shares.html">Акции</a></li>
+            <li><a class="page" href="../Bonds/Bonds.html">Облигации</a></li>
+            <li><a class="page" href="../Others/Others.html">Фьючерсы и опционы</a></li>
+            <li><a class="page current" href="../Contacts/Contacts.html">Учет в базу </a></li>
+            <li><a class="downbutton" href="#vkicon"> <img height="60px" src="../images/down.png"> </a> </li>
+        </ul>
+        <hr align="center" color="000066" width="100%" size="10px">
+
+        <table class="maintb">
+            <tr>
+                <td>
+                    <h2 align="center">Заполните, пожалуйста, все поля в таблице ниже</h2>
+                    <table class="table_cont" width="800" cellspacing="3" cellpadding="10px" bgcolor="00CCFF"
+                        border="1">
+                        <caption>Контактная информация</caption>
+                        <tr bgcolor="99CCFF" height="10px">
+                            <td width="150px">Имя</td>
+                            <td width="150px"><input minlength="2" type="Text" name="Name" placeholder="Иван"></td>
+                        </tr>
+                        <tr bgcolor="99CCFF" height="10px">
+                            <td width="150px">Фамилия</td>
+                            <td width="150px"><input minlength="2" type="Text" name="Surname" placeholder="Иванов"></td>
+                        </tr>
+                        <tr bgcolor="99CCFF" height="10px">
+                            <td width="150px">Отчество</td>
+                            <td width="150px"><input minlength="2" type="Text" name="Patronymic" placeholder="Иванович">
+                            </td>
+                        </tr>
+                        <tr bgcolor="99CCFF" height="10px">
+                            <td width="150px"> Пол </td>
+                            <td width="150px">
+                                <div>
+                                    <input type="radio" id="man" name="Sex" value="man">
+                                    <label for="man">Мужской</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="woman" name="Sex" value="woman">
+                                    <label for="woman">Женский</label>
+                                </div>
+                                <div>
+                            </td>
+                        </tr>
+                        <tr bgcolor="99CCFF" height="10px">
+                            <td width="150px">Дата Рождения </td>
+                            <td width="150px"><input minlength="10" type="date" name="mesto_vidachi"></td>
+                        </tr>
+                        <tr bgcolor="99CCFF" height="10px">
+                            <td width="150px">Телефон</td>
+                            <td width="150px"><input minlength="5" type="tel" name="telephone"></td>
+                        </tr>
+                        <tr bgcolor="99CCFF" height="10px">
+                            <td width="150px">Электронная почта</td>
+                            <td width="150px"><input minlength="4" type="email" name="email"></td>
+                        </tr>
+                        <tr bgcolor="6666CC" height="10px">
+                            <td align="center" colspan="2" width="150px">Заинтересованность в инвестициях</td>
+                        <tr bgcolor="99CCFF" height="10px">
+                            <td width="150px"> Насколько вы опытны в инвестициях? </td>
+                            <td width="150px">
+                                <div>
+                                    <input type="radio" id="had" name="experience" value="had">
+                                    <label for="had">Большой опыт в инвестициях</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="notalot" name="experience" value="notalot">
+                                    <label for="notalot">Небольшой опыт инвестирования</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="didnot" name="experience" value="didnot">
+                                    <label for="didnot">Не было опыта в инвестициях</label>
+                                </div>
+                                <div>
+                            </td>
+                        </tr>
+                        <tr bgcolor="99CCFF" height="10px">
+                            <td width="150px"> Имеется ли у вас высшее экономическое образование? </td>
+                            <td width="150px">
+                                <div>
+                                    <input type="radio" id="yes" name="education" value="yes">
+                                    <label for="yes">Да</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="no" name="education" value="no">
+                                    <label for="no">Нет</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr bgcolor="99CCFF" height="10px">
+                            <td width="150px"> Какие цели вы преследуете, находясь на данном сайте? </td>
+                            <td width="150px">
+                                <div>
+                                    <input type="checkbox" id="earn" name="goal" checked>
+                                    <label for="earn">Заработать на фондовом рынке</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="educate" name="goal">
+                                    <label for="educate">Расширить кругозор в сфере инвестиций</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="educate" name="goal">
+                                    <label for="educate">Получить знания о ценных бумагах для дальнейшего
+                                        использования</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>Название файла: <input type="Техт" name="000_file_name" value="g01_u01_karzanov.txt">
+                        <br>Тип записи в файл:<select name="010_mode">
+                            <OPTION value="a">a - дозаписать в файл</OPTION>
+                            <OPTION value="w">w - очисить файл и записать в файл</OPTION>
+                        </select>
+                    </p>
+                    <p>Записанный файл находится <a target="_blank"
+                            href="http://g06u33.nn2000.info/tmp/g01_u01_karzanov.txt">«Здесь»</a></p>
+                    <p> <input class="classbut" type="Reset" name="Reset" value="Обновить">
+                        <input class="classbut" type="Submit" name="submit" value="Отправить">
+                    </p>
+                </td>
+                <td align="center" valign="top">
+                    <h2>Хотите ли вы оформить подписку на платные услуги нашего сайта?</h2>
+                    <table width="600px" class="table_price">
+                        <caption>Платная подписка на справочник инвестоора</caption>
+                        <tr>
+                            <th>Plan</th>
+                            <th colspan="2">Price</th>
+                        </tr>
+                        <tr>
+                            <td>Базовый</td>
+                            <td>10$</td>
+                            <td><input type="button" value="Выбрать"></td>
+                        </tr>
+                        <tr>
+                            <td>Профессиональный</td>
+                            <td>20$</td>
+                            <td><input type="button" value="Выбрать"></td>
+                        </tr>
+                        <tr>
+                            <td>Преимум</td>
+                            <td>30$</td>
+                            <td><input type="button" value="Выбрать"></td>
+                        </tr>
+                        <tr>
+                            <td>Платина</td>
+                            <td>60$</td>
+                            <td><input type="button" value="Выбрать"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p align="right"> <a href="#" title="Вернуться к началу" class="topbutton">Вернуться к началу страницы</a> </p>
+    <hr color="000066" width="100%" size="5px">
+    <table width="100%" cellspacing="3" cellpadding="5px">
+        <tr>
+            <td width="80%"> <a href="../Contacts/Contacts.html">Пожалуйста, заполните контактную информацию по ссылке
+                </a>
+            </td>
+            <td width="20%">
+                <a href="https://vk.com/sleepingalex" target="blank"><img id="vkicon" width="40px"
+                        src="../images/vk.png"></a>
+                Связаться с нами через:
+            </td>
+        </tr>
+    </table>
+    <hr color="000066" width="100%" size="5px">
+</body>
+
+</html>
